@@ -16,7 +16,7 @@ setRandomColor()
   }
 
 async function getColorName (hex) {
-  await fetch(`http://www.thecolorapi.com/id?hex=${hex}`)
+  await fetch(`https://www.thecolorapi.com/id?hex=${hex}`)
     .then(res => res.json())
     .then(res => {
       colourName = res.name.value
