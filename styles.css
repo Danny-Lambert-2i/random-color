@@ -1,0 +1,8 @@
+*{
+    background-color: rgb(248, 219, 219);
+    margin-left: 20%;
+}
+.button{
+    background-color: blue;
+    border-radius: 5%;
+}
